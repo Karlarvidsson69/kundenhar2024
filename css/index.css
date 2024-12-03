@@ -1,0 +1,51 @@
+.container {
+    display: grid ;
+    grid-template-rows: 50vh;
+    grid-template-columns: 50% 50%;
+    grid-template-areas:
+    "header header"
+    "sec1 sec3"
+    "sec2 sec4";
+    height:50vh;
+    
+}
+
+header {
+    grid-area:header;
+    background-color: cadetblue;
+    text-align: center;
+}
+
+
+img {
+    width: 45%;
+}
+
+section.sec1 {
+    grid-area:sec1;
+    text-align: center;
+    background-color: rgb(255, 0, 242);
+   
+}
+
+section.sec3 {
+    grid-area:sec3;
+    text-align: center;
+    background-color: rgb(255, 0, 242);
+   
+}
+
+
+section.sec2 {
+    grid-area:sec2;
+    text-align: center;
+    background-color: rgb(160, 95, 95);
+    
+}
+
+section.sec4 {
+    grid-area:sec4;
+    text-align: center;
+    background-color: rgb(160, 95, 95);
+    
+}
