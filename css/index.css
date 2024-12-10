@@ -4,48 +4,73 @@
     grid-template-columns: 50% 50%;
     grid-template-areas:
     "header header"
+    "sec0 sec0"
     "sec1 sec3"
-    "sec2 sec4";
+    "sec2 sec4"
+    "sec5 sec5";
     height:50vh;
     
 }
 
 header {
     grid-area:header;
-    background-color: cadetblue;
+    background-color:  #9c9c9c;
     text-align: center;
 }
 
 
 img {
-    width: 45%;
+    width: 35%;
+    border-radius: 8px;
+}
+
+section.sec0 {
+    grid-area:sec0;
+    
+
+}
+
+section.sec0 a{
+ color: #000000;
 }
 
 section.sec1 {
     grid-area:sec1;
     text-align: center;
-    background-color: rgb(255, 0, 242);
+    background-color:  #FF4081 ;
    
 }
+
 
 section.sec3 {
     grid-area:sec3;
     text-align: center;
-    background-color: rgb(255, 0, 242);
+    background-color:  #FF4081;
    
+}
+section.sec3 ul{
+    background-color: aliceblue;
+    text-align: cneter;
 }
 
 
 section.sec2 {
     grid-area:sec2;
     text-align: center;
-    background-color: rgb(160, 95, 95);
+    background-color:  #FF4081;
     
 }
+
 
 section.sec4 {
     grid-area:sec4;
     text-align: center;
-    background-color: rgb(160, 95, 95);
+    background-color:  #FF4081;
     
+}
+
+section.sec5 {
+    grid-area:sec5;
+    text-align: center;
+
 }
